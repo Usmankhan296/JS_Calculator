@@ -59,7 +59,23 @@
         flex-direction: column;
         cursor: pointer;
     }
-
+ @media (max-width:700px){
+.container{
+    width:280px;
+}
+input{
+    height:55px;
+    width:55px;
+    margin:3px;
+}
+.number{
+    width:240px;
+    height:55px;
+}
+.equal{
+     padding: 0px 65px 0px 50px;
+}
+    }
      .equal{
         padding: 0px 74px 0px 58px;
 
